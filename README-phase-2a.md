@@ -26,12 +26,15 @@ Worth to read:
 
 4. Provision your infrastructure.
 
-    a) setup Vertex AI Workbench `pyspark` kernel as described in point [8](https://github.com/bdg-tbd/tbd-workshop-1/tree/v1.0.32#project-setup) 
+    a) setup Vertex AI Workbench `pyspark` kernel as described in point [8](https://github.com/bdg-tbd/tbd-workshop-1/tree/v1.0.32#project-setup)
 
     b) upload [tpc-di-setup.ipynb](https://github.com/bdg-tbd/tbd-workshop-1/blob/v1.0.36/notebooks/tpc-di-setup.ipynb) to 
 the running instance of your Vertex AI Workbench
 
-5. In `tpc-di-setup.ipynb` modify cell under section ***Clone tbd-tpc-di repo***:
+![img.png](doc/figures/tpc_di_setup.png)
+
+
+6. In `tpc-di-setup.ipynb` modify cell under section ***Clone tbd-tpc-di repo***:
 
    a)first, fork https://github.com/mwiewior/tbd-tpc-di.git to your github organization.
 
@@ -49,7 +52,7 @@ the running instance of your Vertex AI Workbench
  
 
 
-6. Access Vertex AI Workbench and run cell by cell notebook `tpc-di-setup.ipynb`.
+7. Access Vertex AI Workbench and run cell by cell notebook `tpc-di-setup.ipynb`.
 
     a) in the first cell of the notebook replace: `%env DATA_BUCKET=tbd-2023z-9910-data` with your data bucket.
 
@@ -78,18 +81,30 @@ the running instance of your Vertex AI Workbench
 7. Explore files created by generator and describe them, including format, content, total size.
 
    ***Files desccription***
+   ![img.png](doc/figures/table_generation_1.png)
+   ![img.png](doc/figures/table_generation_2.png)
+   ![img.png](doc/figures/table_generation_3.png)
+   ![img.png](doc/figures/tpd_di_files_created.png)
+   ![img.png](doc/figures/generated_batch_list_1.png)
+   ![img.png](doc/figures/generated_batch_list_2.png)
+   ![img.png](doc/figures/generated_batch_list_3.png)
 
-8. Analyze tpcdi.py. What happened in the loading stage?
+9. Analyze tpcdi.py. What happened in the loading stage?
+
+    ![img.png](doc/figures/tpcdi.png)
 
    ***Your answer***
 
-9. Using SparkSQL answer: how many table were created in each layer?
+10. Using SparkSQL answer: how many table were created in each layer?
 
    ***SparkSQL command and output***
 
-10. Add some 3 more [dbt tests](https://docs.getdbt.com/docs/build/tests) and explain what you are testing. ***Add new tests to your repository.***
+11. Add some 3 more [dbt tests](https://docs.getdbt.com/docs/build/tests) and explain what you are testing. ***Add new tests to your repository.***
 
-   ***Code and description of your tests***
+   ![img.png](doc/figures/dbt_test_1.png)
+   ![img.png](doc/figures/dbt_test_2.png)
+   ![img.png](doc/figures/dbt_test_3.png)
+   ![img.png](doc/figures/dbt_test_passed.png)
 
 11. In main.tf update
    ```
