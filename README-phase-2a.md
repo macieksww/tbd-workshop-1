@@ -38,6 +38,8 @@ the running instance of your Vertex AI Workbench
 
    a)first, fork https://github.com/mwiewior/tbd-tpc-di.git to your github organization.
 
+  ![img.png](doc/figures/notebook_branch_create.png)
+
    b)create new branch (e.g. 'notebook') in your fork of tbd-tpc-di and modify profiles.yaml by commenting following lines:
    ```  
         #"spark.driver.port": "30000"
@@ -47,12 +49,14 @@ the running instance of your Vertex AI Workbench
    ```
    This lines are required to run dbt on airflow but have to be commented while running dbt in notebook.
 
+   ![img.png](doc/figures/notebook_branch_comment_lines.png)
+
    c)update git clone command to point to ***your fork***.
 
  
 
 
-7. Access Vertex AI Workbench and run cell by cell notebook `tpc-di-setup.ipynb`.
+8. Access Vertex AI Workbench and run cell by cell notebook `tpc-di-setup.ipynb`.
 
     a) in the first cell of the notebook replace: `%env DATA_BUCKET=tbd-2023z-9910-data` with your data bucket.
 
