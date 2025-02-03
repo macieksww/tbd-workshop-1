@@ -107,9 +107,14 @@ the running instance of your Vertex AI Workbench
 11. Add some 3 more [dbt tests](https://docs.getdbt.com/docs/build/tests) and explain what you are testing. ***Add new tests to your repository.***
 
    ![img.png](doc/figures/dbt_test_1.png)
+  Test if each date has exact one unique ID
+
    ![img.png](doc/figures/dbt_test_2.png)
+  Test if the date is not in the furue
+
    ![img.png](doc/figures/dbt_test_3.png)
-   ![img.png](doc/figures/dbt_test_passed.png)
+    Test if day names are valid
+   ![img.png](https://github.com/macieksww/tbd-workshop-1/blob/master/doc/figures/dbt_tests_passed.png)
 
 11. In main.tf update
    ```
