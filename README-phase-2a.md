@@ -119,6 +119,8 @@ the running instance of your Vertex AI Workbench
 **Done**
 
 12. Redeploy infrastructure and check if the DAG finished with no errors:
+    
     Infrastructured was redeployed with errors:
-![474912604_1287875499142020_6221651021979676818_n](https://github.com/user-attachments/assets/e94c5e56-124f-4ee6-bf71-f3963a1d3487)
+
+    ![474912604_1287875499142020_6221651021979676818_n](https://github.com/user-attachments/assets/e94c5e56-124f-4ee6-bf71-f3963a1d3487)
 
