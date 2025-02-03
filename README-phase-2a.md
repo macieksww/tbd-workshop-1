@@ -93,15 +93,16 @@ the running instance of your Vertex AI Workbench
    ![img.png](doc/figures/generated_batch_list_2.png)
    ![img.png](doc/figures/generated_batch_list_3.png)
 
-9. Analyze tpcdi.py. What happened in the loading stage?
+8. Analyze tpcdi.py. What happened in the loading stage?
 
     ![img.png](doc/figures/tpcdi.png)
 
    ***Your answer***
 
-10. Using SparkSQL answer: how many table were created in each layer?
-
+9. Using SparkSQL answer: how many table were created in each layer?
    ***SparkSQL command and output***
+   ![img.png](doc/figures/task_9_phase2.png)
+
 
 11. Add some 3 more [dbt tests](https://docs.getdbt.com/docs/build/tests) and explain what you are testing. ***Add new tests to your repository.***
 
