@@ -38,7 +38,7 @@ the running instance of your Vertex AI Workbench
 
    a)first, fork https://github.com/mwiewior/tbd-tpc-di.git to your github organization.
 
-  ![img.png](doc/figures/notebook_branch_create.png)
+  ![img.png](https://github.com/macieksww/tbd-workshop-1/blob/master/doc/figures/notebbok_branch_create.png?raw=true)
 
    b)create new branch (e.g. 'notebook') in your fork of tbd-tpc-di and modify profiles.yaml by commenting following lines:
    ```  
@@ -53,7 +53,7 @@ the running instance of your Vertex AI Workbench
 
    c)update git clone command to point to ***your fork***.
 
- 
+ DONE
 
 
 8. Access Vertex AI Workbench and run cell by cell notebook `tpc-di-setup.ipynb`.
@@ -80,6 +80,8 @@ the running instance of your Vertex AI Workbench
        "spark.executor.instances": "2"
        "spark.hadoop.hive.metastore.warehouse.dir": "hdfs:///user/hive/warehouse/"
   ```
+
+ALL DONE
 
 
 7. Explore files created by generator and describe them, including format, content, total size.
